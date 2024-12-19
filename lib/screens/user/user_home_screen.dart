@@ -155,6 +155,12 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
                     ),
                     child: const Row(
                       children: [
+                        Icon(
+                          Icons.flood,
+                          color: Colors.blue,
+                          size: 32,
+                        ),
+                        SizedBox(width: 16),
                         Text(
                           'Laporan Bencana',
                           style: TextStyle(
@@ -195,6 +201,12 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
                     ),
                     child: const Row(
                       children: [
+                        Icon(
+                          Icons.cleaning_services,
+                          color: Colors.blue,
+                          size: 32,
+                        ),
+                        SizedBox(width: 16),
                         Text(
                           'Laporan Kebersihan',
                           style: TextStyle(
@@ -235,6 +247,12 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
                     ),
                     child: const Row(
                       children: [
+                        Icon(
+                          Icons.medical_services,
+                          color: Colors.blue,
+                          size: 32,
+                        ),
+                        SizedBox(width: 16),
                         Text(
                           'Laporan Medis',
                           style: TextStyle(
